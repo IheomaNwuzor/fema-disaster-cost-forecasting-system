@@ -1,0 +1,190 @@
+# FEMA Disaster Recovery Cost Forecasting System
+
+## Project Overview
+
+This project predicts FEMA disaster recovery costs using Machine Learning and an XGBoost regression model.
+
+The system includes:
+
+- A FastAPI backend
+- A Streamlit dashboard
+- Scenario simulation
+- Budget gap analysis
+- Disaster severity classification
+- Feature importance visualization
+
+## Features
+
+- Predict disaster recovery costs
+- Compare recovery costs across different durations
+- Budget risk analysis
+- Interactive dashboard
+- Dockerized deployment
+- Machine Learning powered forecasting
+
+## Tech Stack
+
+- Python
+- FastAPI
+- Streamlit
+- XGBoost
+- Pandas
+- Plotly
+- Docker
+
+## Project Structure
+
+```text
+DISASTER_COST_PREDICTION
+│
+├── api/
+│   └── main.py
+│
+├── dashboard/
+│   └── app.py
+│
+├── models/
+│   ├── xgboost_model.pkl
+│   └── model_features.pkl
+│
+├── reports/
+│   ├── xgboost_feature_importance.png
+│   └── feature_importance.csv
+│
+├── src/
+│   ├── 01_data_ingestion.py
+│   ├── 02_check_loaded_data.py
+│   ├── 03_data_cleaning.py
+│   ├── 04_eda.py
+│   ├── 05_feature_engineering.py
+│   ├── 06_linear_regression.py
+│   ├── 07_random_forest.py
+│   ├── 08_xgboost.py
+│   ├── 09_feature_importance.py
+│   └── 10_save_model.py
+│
+├── Dockerfile.api
+├── Dockerfile.dashboard
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <your-github-repo-link>
+```
+
+Move into the project folder:
+
+```bash
+cd DISASTER_COST_PREDICTION
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run Locally
+
+Start FastAPI backend:
+
+```bash
+uvicorn api.main:app --reload
+```
+
+Start Streamlit dashboard:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+## Docker Deployment
+
+Build and run containers:
+
+```bash
+docker compose up --build
+```
+
+Backend API:
+
+```text
+http://localhost:8000
+```
+
+Dashboard:
+
+```text
+http://localhost:8501
+```
+
+## Model Performance
+
+| Metric | Value |
+|---|---|
+| R² Score | 0.52 |
+| MAE | 1.04 |
+| RMSE | 1.44 |
+
+Final selected model:
+- XGBoost Regressor
+
+## Dashboard Features
+
+- Disaster recovery cost forecasting
+- Budget gap analysis
+- Disaster severity classification
+- Scenario simulation
+- Feature importance visualization
+- Interactive Plotly analytics
+
+## Future Improvements
+
+- Real-time FEMA API integration
+- Cloud deployment with AWS or Azure
+- Advanced geospatial analytics
+- Climate risk integration
+- Economic and infrastructure indicators
+- Historical disaster comparison analytics
+
+## API Documentation
+
+FastAPI automatically generates interactive API documentation.
+
+Swagger UI:
+
+```text
+http://localhost:8000/docs
+```
+
+ReDoc:
+
+```text
+http://localhost:8000/redoc
+```
+
+## Dashboard Preview
+
+### Prediction Dashboard
+
+Add dashboard screenshots here after deployment.
+
+Example:
+
+```text
+reports/dashboard_preview.png
+```
+
+## Author
+
+Iheoma Nwuzor
+
+## License
+
+This project is for educational and portfolio purposes.
