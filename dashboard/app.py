@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-API_URL = "http://api:8000/predict-cost"
+API_URL = "https://fema-disaster-cost-forecasting-system.onrender.com/predict-cost"
 
 st.set_page_config(
     page_title="FEMA Disaster Recovery Cost Forecasting System",
