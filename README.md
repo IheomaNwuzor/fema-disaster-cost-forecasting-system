@@ -153,33 +153,26 @@ Final selected model:
 - Economic and infrastructure indicators
 - Historical disaster comparison analytics
 
-## API Documentation
+## Live Application
 
-FastAPI automatically generates interactive API documentation.
+### Streamlit Dashboard
+https://fema-disaster-dashboard.onrender.com
 
-Swagger UI:
+### FastAPI Documentation
+https://fema-disaster-cost-forecasting-system.onrender.com/docs
 
-```text
-[http://localhost:8000/docs](https://fema-disaster-cost-forecasting-system.onrender.com/docs)
-```
-
-ReDoc:
-
-```text
-[http://localhost:8000/redoc](https://fema-disaster-cost-forecasting-system.onrender.com/redoc)
-```
+---
 
 ## Dashboard Preview
 
-### Prediction Dashboard
+### Main Interface
+![Dashboard](reports/dashboard_main.png)
 
-Add dashboard screenshots here after deployment.
+### Prediction Results
+![Prediction](reports/prediction_results.png)
 
-Example:
-
-```text
-[reports/dashboard_preview.png](https://fema-disaster-dashboard.onrender.com)
-```
+### API Documentation
+![API Docs](reports/api_docs.png)
 
 ## Author
 
