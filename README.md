@@ -166,12 +166,21 @@ https://fema-disaster-cost-forecasting-system.onrender.com/docs
 ## Dashboard Preview
 
 ### Main Interface
+<img width="1243" height="597" alt="image" src="https://github.com/user-attachments/assets/eed2412c-d298-4a7c-babd-8994397da9e5" />
+
+<img width="767" height="635" alt="image" src="https://github.com/user-attachments/assets/71d92267-cd58-4d54-84bf-daa3db8fb208" />
+
+
 ![Dashboard](reports/dashboard_main.png)
 
 ### Prediction Results
+<img width="1228" height="641" alt="image" src="https://github.com/user-attachments/assets/17dcd13a-7b25-4e3e-982e-d03b12bdc462" />
+
 ![Prediction](reports/prediction_results.png)
 
 ### API Documentation
+<img width="817" height="640" alt="image" src="https://github.com/user-attachments/assets/05717368-1dac-4b80-9f9d-f5372a548120" />
+
 ![API Docs](reports/api_docs.png)
 
 ## Author
