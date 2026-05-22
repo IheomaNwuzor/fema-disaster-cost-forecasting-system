@@ -180,6 +180,8 @@ https://fema-disaster-cost-forecasting-system.onrender.com/docs
 
 ### API Documentation
 <img width="817" height="640" alt="image" src="https://github.com/user-attachments/assets/05717368-1dac-4b80-9f9d-f5372a548120" />
+<img width="745" height="149" alt="image" src="https://github.com/user-attachments/assets/ab0a776f-0c03-4616-b4ea-dae569525b5d" />
+
 
 ![API Docs](reports/api_docs.png)
 
