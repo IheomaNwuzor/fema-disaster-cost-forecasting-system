@@ -160,13 +160,13 @@ FastAPI automatically generates interactive API documentation.
 Swagger UI:
 
 ```text
-http://localhost:8000/docs
+[http://localhost:8000/docs](https://fema-disaster-cost-forecasting-system.onrender.com/docs)
 ```
 
 ReDoc:
 
 ```text
-http://localhost:8000/redoc
+[http://localhost:8000/redoc](https://fema-disaster-cost-forecasting-system.onrender.com/redoc)
 ```
 
 ## Dashboard Preview
@@ -178,7 +178,7 @@ Add dashboard screenshots here after deployment.
 Example:
 
 ```text
-reports/dashboard_preview.png
+[reports/dashboard_preview.png](https://fema-disaster-dashboard.onrender.com)
 ```
 
 ## Author
